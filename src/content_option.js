@@ -107,9 +107,9 @@ const contactConfig = {
     description: "I’m Pratiksha Sarukte, a B.Tech student specializing in Machine Learning and web development, focused on creating innovative tech solutions.",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-    YOUR_SERVICE_ID: "service_id",
-    YOUR_TEMPLATE_ID: "template_id",
-    YOUR_USER_ID: "user_id",
+    YOUR_SERVICE_ID: "service_mt5noyf",
+    YOUR_TEMPLATE_ID: "template_0dyorrk",
+    YOUR_PUBLIC_ID: "pnVB9vxVE070Aw3oE",
 };
 
 const socialprofils = {

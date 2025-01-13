@@ -16,6 +16,24 @@ export const ContactUs = () => {
     alertmessage: "",
     variant: "",
   });
+  // emailjs.init({
+  //   publicKey: 'YOUR_PUBLIC_KEY',
+  //   // Do not allow headless browsers
+  //   blockHeadless: true,
+  //   blockList: {
+  //     // Block the suspended emails
+  //     list: ['foo@emailjs.com', 'bar@emailjs.com'],
+  //     // The variable contains the email address
+  //     watchVariable: 'userEmail',
+  //   },
+  //   limitRate: {
+  //     // Set the limit rate for the application
+  //     id: 'app',
+  //     // Allow 1 request per 10s
+  //     throttle: 10000,
+  //   },
+  // });
+  emailjs.init(contactConfig.YOUR_PUBLIC_ID);
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -33,7 +51,7 @@ export const ContactUs = () => {
         contactConfig.YOUR_SERVICE_ID,
         contactConfig.YOUR_TEMPLATE_ID,
         templateParams,
-        contactConfig.YOUR_USER_ID
+        contactConfig.YOUR_PUBLIC_ID
       )
       .then(
         (result) => {
