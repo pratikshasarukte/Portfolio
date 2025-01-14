@@ -12,6 +12,7 @@ import {
   FaTiktok,
   FaCircle
 } from "react-icons/fa";
+import { SiLeetcode,SiHackerrank, SiCodechef,SiGmail } from "react-icons/si";
 import { socialprofils } from "../../content_option";
 
 const ICON_MAPPING = {
@@ -24,7 +25,11 @@ const ICON_MAPPING = {
   tiktok: FaTiktok,
   twitter: FaTwitter,
   twitch: FaTwitch,
-  youtube: FaYoutube
+  youtube: FaYoutube,
+  leetcode: SiLeetcode,
+  hackerrank: SiHackerrank,
+  codechef: SiCodechef,
+  gmail: SiGmail,
 };
 
 export const Socialicons = (params) => {

@@ -110,13 +110,16 @@ const contactConfig = {
     YOUR_SERVICE_ID: "service_mt5noyf",
     YOUR_TEMPLATE_ID: "template_0dyorrk",
     YOUR_PUBLIC_ID: "pnVB9vxVE070Aw3oE",
+    AUTO_REPLY_TEMPLATE_ID: "template_p4euk6m",
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    gmail:"mailto:pratikshasarukte0007@gmail.com",
+    github: "https://github.com/pratikshasarukte",
+    hackerrank: "https://www.hackerrank.com/profile/pratikshasarukt1",
+    linkedin: "https://www.linkedin.com/in/pratiksha-sarukte/",
+    leetcode: "https://leetcode.com/u/pratiksha_sarukte/",
+    codechef: "https://www.codechef.com/users/pratiksha0007",
 };
 export {
     meta,
